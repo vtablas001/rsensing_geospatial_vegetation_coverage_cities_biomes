@@ -204,6 +204,10 @@ The included scripts document the core workflow:
 
 To fully reproduce the project, the user must configure Google Earth Engine access locally and regenerate the excluded raster/model artifacts.
 
+## Acknowledgement
+
+This project was made possible through access to Google Earth Engine under a **Google Earth Engine non-profit license** granted for this work. I am grateful for that access, which enabled local, applied research using large-scale satellite data and helped make this independent environmental analytics project feasible.
+
 ## Project Positioning
 
 This project demonstrates an applied AI and data science workflow for geospatial environmental analytics in Latin America. It bridges technical remote sensing methods and policy-oriented communication by converting satellite imagery into interpretable metrics, visual products, and comparative territorial insights.
