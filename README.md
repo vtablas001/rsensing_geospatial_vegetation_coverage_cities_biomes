@@ -1,8 +1,6 @@
 # Geospatial Vegetation Remote Sensing Analytics across Latin American Biomes and Cities
 
-*Independent Applied AI and Data Science Project*
-
-This repository presents a lightweight version of a geospatial analytics project focused on vegetation density, forest cover change, and urban/peri-urban environmental patterns across selected Latin American territories.
+This repository presents a small version of a geospatial analytics project focused on vegetation density, forest cover change, and urban/peri-urban environmental patterns across selected Latin American territories.
 
 The project combines satellite remote sensing, geospatial data engineering, spectral vegetation indicators, and machine learning to compare vegetation dynamics across two complementary geographies:
 
