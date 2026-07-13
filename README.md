@@ -20,6 +20,10 @@ The combined view places the five vegetation fronts on the top row and their fiv
 
 ![Combined vegetation fronts and capital cities](gifs/vegetacion_biomas_capitales_trienios_2012.gif)
 
+The animated chart below follows the aggregate dense-vegetation area for the five capital AOIs and the selected fronts grouped into Southern Humid, Northern Humid, and Dry biome classes.
+
+![Aggregate dense vegetation evolution by class](gifs/evolucion_agregada_vegetacion_clases_trienios_2012.gif)
+
 ### Vegetation Fronts and Biomes
 
 | Country | Biome / vegetation front | Timelapse |
@@ -214,6 +218,7 @@ This is a **lightweight release** containing the analytical code, final tables, 
 ```text
 .
 |-- data/
+|   |-- agregado_vegetacion_clases_trienios_2012.csv
 |   |-- capitales_seleccionadas_trienios_2012_2026_1000km2.csv
 |   |-- estadisticas_grupo_a_trienios_2012.csv
 |   |-- metricas_modelos_grupo_a.csv
@@ -228,7 +233,9 @@ This is a **lightweight release** containing the analytical code, final tables, 
 |   |-- rf_train_grupo_a.py
 |   |-- inferencia_grupo_a.py
 |   |-- analyze_capital_trienios_2012.py
-|   `-- generate_capital_trienio_gifs.py
+|   |-- generate_capital_trienio_gifs.py
+|   |-- generate_combined_vegetation_gif.py
+|   `-- generate_aggregate_evolution_gif.py
 `-- README.md
 ```
 
@@ -239,6 +246,8 @@ This is a **lightweight release** containing the analytical code, final tables, 
 | `scripts/inferencia_grupo_a.py` | Applies the trained models and converts classified pixels into area metrics and maps |
 | `scripts/analyze_capital_trienios_2012.py` | Calculates strict dense-vegetation indicators for the selected capitals |
 | `scripts/generate_capital_trienio_gifs.py` | Turns the capital time series into communication-ready GIFs |
+| `scripts/generate_combined_vegetation_gif.py` | Aligns the five vegetation fronts and five capitals in one synchronized GIF |
+| `scripts/generate_aggregate_evolution_gif.py` | Aggregates the four analytical classes and renders their animated chart |
 
 The repository excludes raw GeoTIFFs, Google Earth Engine credentials, virtual environments, large intermediate rasters, and serialized model binaries. Reproducing the full workflow requires Earth Engine access and regeneration of those local artifacts.
 
