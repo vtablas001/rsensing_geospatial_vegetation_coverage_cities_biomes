@@ -16,6 +16,10 @@ This is not an official forest inventory. It is an applied AI workflow for askin
 
 These time-lapse GIFs are the fastest way into the project. They show the validated triennial comparison from 2012-2014 through 2024-2026, making it possible to scan more than a decade of modeled vegetation patterns in a few seconds. The full research archive extends back to 1992; this lightweight visual set focuses on the more comparable recent analytical window.
 
+The combined view places the five vegetation fronts on the top row and their five capital-city regions directly below them, aligned by country.
+
+![Combined vegetation fronts and capital cities](gifs/vegetacion_biomas_capitales_trienios_2012.gif)
+
 ### Vegetation Fronts and Biomes
 
 | Country | Biome / vegetation front | Timelapse |
